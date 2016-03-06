@@ -5,7 +5,7 @@
             <Name>Ikey Doherty</Name>
             <Email>ikey@solus-project.com</Email>
         </Packager>
-        <License>LGPL3</License>
+        <License>LGPL-3.0</License>
         <Summary xml:lang="en">Eigen is a C++ template library for linear algebra.</Summary>
         <Description xml:lang="en">Eigen is a C++ template library for linear algebra.
 </Description>
@@ -20,9 +20,12 @@
         <Files>
             <Path fileType="data">/usr/*</Path>
         </Files>
+        <Replaces>
+            <Package>eigen2-devel</Package>
+        </Replaces>
     </Package>
     <History>
-        <Update release="3">
+        <Update release="4">
             <Date>2016-03-06</Date>
             <Version>2.0.16</Version>
             <Comment>Packaging update</Comment>
