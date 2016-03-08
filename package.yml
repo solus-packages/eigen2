@@ -1,6 +1,6 @@
 name       : eigen2
 version    : 2.0.16
-release    : 4
+release    : 5
 source     :
     - https://bitbucket.org/eigen/eigen/get/2.0.16.tar.bz2 : 6027304daddb570d1e3f01183d9f2ba566699c595d1be61e31866d581e596caa
 license    : LGPL-3.0
