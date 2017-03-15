@@ -1,14 +1,16 @@
 name       : eigen2
-version    : 2.0.16
-release    : 5
+version    : 2.0.17
+release    : 6
 source     :
-    - https://bitbucket.org/eigen/eigen/get/2.0.16.tar.bz2 : 6027304daddb570d1e3f01183d9f2ba566699c595d1be61e31866d581e596caa
+    - https://bitbucket.org/eigen/eigen/get/2.0.17.tar.bz2 : 7255e856ed367ce6e6e2d4153b0e4e753c8b8d36918bf440dd34ad56aff09960
 license    : LGPL-3.0
+component  : programming
 summary    : Eigen is a C++ template library for linear algebra.
 description: |
     Eigen is a C++ template library for linear algebra.
-patterns:
-    - [/usr/*]
+patterns   :
+    - /usr/include/eigen2
+    - /usr/share
 replaces   :
     - eigen2-devel
 setup      : |
